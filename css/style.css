@@ -1,0 +1,37 @@
+body {
+     font-family:Arial, Sans-Serif;
+}
+.clearfix:before, .clearfix:after{
+     content: "";
+     display: table;
+}
+.clearfix:after{
+     clear: both;
+}
+a{
+     color:#0067ab;
+     text-decoration:none;
+}
+a:hover{
+     text-decoration:underline;
+}
+
+input[type='text'], input[type='email'],input[type='password'] {
+     color: #333;
+     font-size: 14px;
+}
+input[type='submit']{
+     color: #fff;
+     background-color: #0067ab !important;
+     cursor:pointer;
+}
+input[type='submit']:hover {
+     background-color: #024978;
+}
+
+.loginFont1{
+	color: #ffad33 !Important;
+}
+.loginFont2{
+	color: #4d79ff !Important;
+}
