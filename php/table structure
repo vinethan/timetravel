@@ -1,0 +1,8 @@
+Quiz table
+id quiz_name user_id user_name user_email creation_date updated_Date Display_Answer timelimit
+
+QuizQuestionery Table
+id quizId question option1 option2 option3 option4 option5 option6 correct_answer
+
+QuizAnswerTable
+id questionid quizId userid username useremail question answer correct_answer

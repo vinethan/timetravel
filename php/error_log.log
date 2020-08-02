@@ -1,0 +1,22 @@
+[11-Jul-2020 21:01:47 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u305486176/domains/mcriyavin.com/public_html/timetravel/php/db.php on line 2
+[11-Jul-2020 21:01:47 Asia/Kolkata] PHP Stack trace:
+[11-Jul-2020 21:01:47 Asia/Kolkata] PHP   1. {main}() /home/u305486176/domains/mcriyavin.com/public_html/timetravel/php/login.php:0
+[11-Jul-2020 21:01:47 Asia/Kolkata] PHP   2. require() /home/u305486176/domains/mcriyavin.com/public_html/timetravel/php/login.php:20
+[11-Jul-2020 21:01:47 Asia/Kolkata] PHP   3. mysqli_connect() /home/u305486176/domains/mcriyavin.com/public_html/timetravel/php/db.php:2
+[11-Jul-2020 21:02:03 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u305486176/domains/mcriyavin.com/public_html/timetravel/php/db.php on line 2
+[11-Jul-2020 21:02:03 Asia/Kolkata] PHP Stack trace:
+[11-Jul-2020 21:02:03 Asia/Kolkata] PHP   1. {main}() /home/u305486176/domains/mcriyavin.com/public_html/timetravel/php/registration.php:0
+[11-Jul-2020 21:02:03 Asia/Kolkata] PHP   2. require() /home/u305486176/domains/mcriyavin.com/public_html/timetravel/php/registration.php:21
+[11-Jul-2020 21:02:03 Asia/Kolkata] PHP   3. mysqli_connect() /home/u305486176/domains/mcriyavin.com/public_html/timetravel/php/db.php:2
+[11-Jul-2020 21:04:20 Asia/Kolkata] PHP Notice:  Undefined variable: pwdValidationMsg in /home/u305486176/domains/mcriyavin.com/public_html/timetravel/php/registration.php on line 26
+[11-Jul-2020 21:04:20 Asia/Kolkata] PHP Stack trace:
+[11-Jul-2020 21:04:20 Asia/Kolkata] PHP   1. {main}() /home/u305486176/domains/mcriyavin.com/public_html/timetravel/php/registration.php:0
+[11-Jul-2020 21:05:17 Asia/Kolkata] PHP Notice:  Undefined variable: pwdValidationMsg in /home/u305486176/domains/mcriyavin.com/public_html/timetravel/php/registration.php on line 26
+[11-Jul-2020 21:05:17 Asia/Kolkata] PHP Stack trace:
+[11-Jul-2020 21:05:17 Asia/Kolkata] PHP   1. {main}() /home/u305486176/domains/mcriyavin.com/public_html/timetravel/php/registration.php:0
+[11-Jul-2020 21:17:24 Asia/Kolkata] PHP Notice:  Undefined variable: pwdValidationMsg in /home/u305486176/domains/mcriyavin.com/public_html/timetravel/php/registration.php on line 26
+[11-Jul-2020 21:17:24 Asia/Kolkata] PHP Stack trace:
+[11-Jul-2020 21:17:24 Asia/Kolkata] PHP   1. {main}() /home/u305486176/domains/mcriyavin.com/public_html/timetravel/php/registration.php:0
+[12-Jul-2020 09:35:27 Asia/Kolkata] PHP Notice:  Undefined variable: pwdValidationMsg in /home/u305486176/domains/mcriyavin.com/public_html/timetravel/php/registration.php on line 26
+[12-Jul-2020 09:35:27 Asia/Kolkata] PHP Stack trace:
+[12-Jul-2020 09:35:27 Asia/Kolkata] PHP   1. {main}() /home/u305486176/domains/mcriyavin.com/public_html/timetravel/php/registration.php:0

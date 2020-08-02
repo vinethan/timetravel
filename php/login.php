@@ -12,25 +12,25 @@
 <script type="text/javascript" src="../script/jquery.min.js"></script>
 <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
 
-<meta http-equiv='cache-control' content='no-cache, no-store, must-revalidate'>
-<meta http-equiv='expires' content='0'>
-<meta http-equiv='pragma' content='no-cache'>
 </head>
 <body>
 <div class="container">
 <?php
+
 require('db.php');
-session_start();
+require('InitilizeSessionVariables.php');
+
+
 // If form submitted, insert values into the database.
 if (isset($_POST['email'])){
         // removes backslashes
- $email = stripslashes($_REQUEST['email']);
+ $email = strtoupper(stripslashes($_REQUEST['email']));
         //escapes special characters in a string
  $email = mysqli_real_escape_string($con,$email);
  $password = stripslashes($_REQUEST['password']);
  $password = mysqli_real_escape_string($con,$password);
  //Checking is user existing in the database or not
- $query = "SELECT * FROM `users` WHERE email='$email' and password='".md5($password)."'";
+ $query = "SELECT * FROM `users` WHERE UPPER(email)='$email' and password='".md5($password)."'";
  $result = mysqli_query($con,$query) or die(mysql_error());
  $rows = mysqli_num_rows($result);
    if($rows==1){
@@ -61,7 +61,7 @@ if (isset($_POST['email'])){
 			 <div class="form-group">
 			 <div class="input-group">
 				<div class="input-group-prepend">
-					<span class="input-group-text"> <i class="fa fa-user"></i> </span>
+					<span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
 				</div>
 				<input type="email" name="email" class="form-control" placeholder="Email" required />
 			</div>
